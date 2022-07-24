@@ -1,4 +1,3 @@
-import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -16,7 +15,7 @@ const ResponsiveAppBar = () => {
         <>
             <AppBar position="static" sx={{ backgroundColor: '#EFEEF1' }}>
                 <Container maxWidth="xl">
-                    <Toolbar disableGutters>
+                    <Toolbar>
                         <PetsIcon sx={{ color: '#6504B5', marginRight: 1 }}/>
                         <Typography
                             variant="h6"

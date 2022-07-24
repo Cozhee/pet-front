@@ -1,0 +1,6 @@
+.hero-section {
+    background-image: url("../../public/images/pet-home.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
